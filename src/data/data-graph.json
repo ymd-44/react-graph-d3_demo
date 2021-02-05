@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0000>",
+      "name": "Champ 1",
+      "color": "#404080",
+      "size": 300,
+      "aval": []
+
+    },
+    {
+      "id": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0001>",
+      "name": "Champ 2",
+      "aval": [],
+      "amont": []
+    },
+    {
+      "id": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0002>",
+      "name": "Champ 3",
+      "aval": [],
+      "amont": []
+    },
+    {
+      "id": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0003>",
+      "name": "Champ 4",
+      "aval": [],
+      "amont": []
+    },
+    {
+      "id": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0004>",
+      "name": "Champ 5",
+      "aval": [],
+      "amont": []
+    }
+  ],
+  "links": [
+    {
+      "source": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0000>",
+      "target": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0001>",
+      "type": "estMembreDe"
+    },
+    {
+      "source": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0000>",
+      "target": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0004>",
+      "type": "estMembreDe"
+    },
+    {
+      "source": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0001>",
+      "target": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0002>",
+      "type": "estMembreDe"
+    },
+    {
+      "source": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0001>",
+      "target": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0004>",
+      "type": "estMembreDe"
+    },
+    {
+      "source": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0002>",
+      "target": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0003>",
+      "type": "estMembreDe"
+    },
+    {
+      "source": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0004>",
+      "target": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0002>",
+      "type": "estMembreDe"
+    }
+  ,
+    {
+      "source": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0003>",
+      "target": "<urn:semantic:Node:0a36e7ae-2c4f-11b2-80c7-0004>",
+      "type": "estMembreDe"
+    }
+  ]
+}

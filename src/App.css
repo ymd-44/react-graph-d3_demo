@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+/******Graph Panel 2**************/
+#treeWrapper {
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+}
+#treeWrapper div:only-child {
+  position: fixed;
+  z-index: 0;
+}
+#graph-id-graph-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
